@@ -1,10 +1,11 @@
 # import tkinter module, set top level widget to tk
 # import random module for random variables
+# set top level widget of the main window to variable tk
 from tkinter import *
 import random
 tk = Tk()
 
-# set top level widget of the main window to variable tk
+# define dimensions of canvas widget in pixels
 # pack() is a layout/geometry manager built into the tkinter module
 # it pads the window with the specified dimensions
 canvas = Canvas(tk, width = 400, height = 400)

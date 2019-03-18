@@ -27,6 +27,9 @@ Displays an image on a user's computer by following the input directory, and ope
 ![Image Display](/images/hairio.png)
 
 ### Moving Triangle
+A short animation of a black triangle moving across the canvas using the tkinter GUI and the time module.
+
+![Moving Triangle](/images/triangle.png)
 
 ### My Letter
 

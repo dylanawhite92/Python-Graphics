@@ -3,7 +3,7 @@
 # Import the turtle module
 import turtle
 
-# Set the turtle pen that draws objects to t
+# Set the turtle pen that draws objects to variable t
 t = turtle.Pen()
 
 # The turtle pen moves 
@@ -12,7 +12,9 @@ t = turtle.Pen()
 t.color(1, 0, 0)
 t.begin_fill()
 
-# Each direction indicates the distance in pixels that it moves, the turtle turns and moves with each function
+# Each forward() indicates the distance in pixels that it moves, 
+# each left() and right() indicates turning by degrees,
+# the turtle turns and moves with each function
 t.forward(100)
 t.left(90)
 t.forward(20)

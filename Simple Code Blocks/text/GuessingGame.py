@@ -9,7 +9,7 @@ num = random.randint(1, 100)
 # Run the program until the break statement
 while True:
 	print("Guess a number between 1 and 100!")
-	print("(Enter an integer and press Enter to continue.45)")
+	print("(Enter an integer and press Enter to continue.)")
 
 	# Store user input as guess variable
 	guess = input()
